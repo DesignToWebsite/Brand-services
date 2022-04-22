@@ -1,0 +1,164 @@
+header{
+    min-height : 105vh;
+    position: relative;
+    .header{
+        min-height:90vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+        @include small-screen {
+            text-align: center;
+            grid-template-columns: 1fr;
+        }
+        .content{
+           
+            @include small-screen{
+                order: 2;
+                margin : auto;
+                padding : 2em 0;
+            }
+        h1{
+            font-weight: bold;
+            font-size:90px;
+            margin-bottom: 20px;
+            @include big-screen {
+                font-size: 70px;
+            }
+            @include medium-screen{
+                font-size: 60px;
+            }
+        }
+        p{
+            font-size:16px;
+            width: 70%;
+            text-align:left;
+            @include small-screen {
+                width: 75%;
+                margin: auto;
+            }
+        }
+        .buttons{
+            margin-top: 25px;
+            font-size:18px;
+            .btn-transparent{
+                color: $green;
+            }
+        }
+        }
+        .images{
+            position: relative;
+            height: 100%;
+            .main{
+                position : relative;  
+                float : right; 
+                   @include medium-screen{
+                       top :15%;
+                   }
+                   @include small-screen{
+                       top :0;
+                       float: initial;
+                   }
+                img.main{
+                    position: relative;
+                    width:450px;
+                    height: auto;
+                    opacity: 1;
+                    @include medium-screen{
+                        width:300px;
+                    }
+                    
+                }
+                img{
+                    position: absolute;
+                    width:200px;
+                    opacity: .8;
+                    @include medium-screen{
+                        width:100px;
+                    }
+                    
+                    &.experience{
+                        left: 18em;
+                        top: 12em;
+                        @include medium-screen{
+                            left: 12em;
+                            top: 9em;
+                        }
+                        @include small-screen{
+                            left: 19em;
+                            top: 9em;
+                        }
+                    }
+                    &.analytics{
+                        left: 15em;
+                        top: 22em;
+                        @include small-screen{
+                            left: 9em;
+                            top: 15em;
+                        }
+                        @include small-screen{
+                            left: 18em;
+                            top: 15em;
+                        }
+                    }
+                    &.data{
+                        width: 100px;
+                        left: 1em;
+                        top: 20em;
+                        @include medium-screen{
+                            left: 0em;
+                            top: 15em;
+                        }
+                        @include small-screen{
+                            left: 7em;
+                            top: 13em;
+                        }
+                    }
+                    &.profile{
+                        left: 3em;
+                        top: 15em;
+                        @include medium-screen{
+                            width: 150px;
+                            left: 1em;
+                            top: 11em;
+                        }
+                        @include small-screen{
+                            width: 150px;
+                            left: 8em;
+                            top: 9em;
+                        }
+                    }
+                    &.button{
+                        width: 145px;
+                        left: -1em;
+                        top: 8em;
+                        @include medium-screen{
+                            left: -6em;
+                            top: 4em;
+                        }
+                        @include small-screen{
+                            left: 1em;
+                            top: 4em;
+                        }
+                    }
+                    &.emoji{
+                        width: 150px;
+                        left: -2em;
+                        top: 32em;
+                        @include medium-screen{
+                            width: 100px;
+                            left: -0em;
+                            top: 23em;
+                        }
+                        @include small-screen{
+                            width: 100px;
+                            left: 7em;
+                            top: 22em;
+                        }
+                    }
+                }
+           
+        }
+    }
+    }
+}

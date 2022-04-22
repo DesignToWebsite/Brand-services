@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  color : $color;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color : $color;
+
+}
+
+p {
+  font-size: 18px;
+  margin-top: 25px;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  color : $color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  color : $color;
+}
+.green{
+  color:$green;
+}
