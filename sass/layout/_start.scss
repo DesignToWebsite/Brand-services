@@ -1,0 +1,47 @@
+.start{
+    background : $grey;
+    text-align: center; 
+    position : relative;
+    z-index: -3;
+    .img{
+        position : absolute;
+        right: -8.4em;
+        z-index: -2;
+    }
+    .content{
+        z-index: 2;
+        padding : 5em;
+        @include small-screen{
+            padding : 5em 1em;
+        }
+        h2{
+            font-size:40px;
+        }
+        p{
+            margin : 2em auto;
+            font-size:20px;
+            width: 600px;
+            @include small-screen{
+                width: 98%;
+            }
+        }
+        .email{
+            display: flex;
+            justify-content:center;
+            input{
+                width: 300px;
+                border : none;
+                padding :10px 25px 10px 15px;
+                @include small-screen{
+                    width: 60%;
+                }
+            }
+            button{
+                width: 30%;
+            }
+        }
+    }
+    .decor{
+        z-index: -1;
+    }
+}

@@ -1,0 +1,50 @@
+.howWork{
+    .desc{
+        text-align: center;
+        margin: auto;
+        width: 528px;
+        @include small-screen{
+            width: 100%;
+        }
+        h2{
+            font-size:40px;
+            font-weight:medium;
+        }
+        p{
+            color : $colorDark;
+        }
+    }
+    .info{
+        .item{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            @include small-screen{
+                grid-template-columns: 1fr;    
+            }
+            .imageContent{
+                img{
+                    width: 100%;
+                }
+            }
+            .textContent{
+                height : 100%;
+                display:flex;
+                width: 350px;
+                flex-direction:column;
+                justify-content:center;
+                @include small-screen{
+                    order : 2;
+                    width: 100%;
+                }
+                h3{
+                    font-size:24px;
+                    font-weight:medium;
+                    color :$colorHeader ;
+                }
+                p{
+                    color :$colorDark;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="206.444" height="85.296" viewBox="0 0 206.444 85.296">
+  <defs>
+    <filter id="Ellipse_2" x="0" y="38.407" width="46.889" height="46.889" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.852" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.148" result="blur"/>
+      <feFlood flood-color="#383838" flood-opacity="0.024"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_20_years_experience" data-name="20+ years experience" transform="translate(-1141.556 -359)">
+    <g id="card">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="188" height="68" transform="translate(1160 359)" fill="rgba(255,255,255,0.6)"/>
+      <text id="Years_Experience" data-name="Years Experience" transform="translate(1263 390)" fill="#313131" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Years</tspan><tspan x="0" y="14">Experience</tspan></text>
+      <text id="_20_" data-name="20+" transform="translate(1180 405)" fill="#0ac05e" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20+</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1141.56, 359)" filter="url(#Ellipse_2)">
+      <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(15.44 52)" fill="#0ac05e" stroke="#fff" stroke-width="6">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="11" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
