@@ -87,6 +87,7 @@ h5 {
 header .decor {
   top: -36px;
   z-index: 2;
+  pointer-events: none;
 }
 
 .partenar {
