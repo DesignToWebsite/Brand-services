@@ -1,0 +1,88 @@
+.testimonials{
+    .des{
+        text-align: center;
+        h2{
+            font-size:40px;
+        }
+        p{
+            margin: auto;
+            width: 548px;
+        }
+    }
+    .bg{
+            position: absolute;
+            background-color:$grey;
+            width: 70%;
+            height: 65vh;
+            z-index: -1;
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto; 
+            @include small-screen{
+                height: 50vh;
+            }
+        }
+    .content{  
+        // height: 65vh;
+        .testimonialCards{
+            display: grid;
+            padding-bottom: 5em;
+            grid-template-columns: repeat(3,1fr) !important;
+            justify-content:space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+            @include small-screen{
+                width: auto;
+                grid-template-columns:1fr !important;
+            }
+            .testimonialCard{
+                margin-top: 2em;
+                background-color:white;
+                padding : 30px 40px;
+                .comment{
+                    p{
+                        margin : 30px 0;
+                    }
+                }
+                .person{
+                    h4{
+                        font-size:14px;
+                        margin: 0;
+                        padding:0;
+                    }
+                    p{
+                        font-size:10px;
+                        padding : 0;
+                        margin : 0
+                    }
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            margin: 2em auto;
+            padding : 3px;
+            justify-content : center;
+            background-color:white;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            img{
+                pointer-events:none;
+            }
+            .icon-previous{
+                //nothing
+                padding : 10px;
+                cursor: pointer;
+                margin-right: 5px;
+            }
+            .icon-next{
+                cursor: pointer;
+                padding : 10px;
+                background-color: #313131;
+            }
+        }
+    }
+
+}

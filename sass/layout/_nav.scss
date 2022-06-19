@@ -1,0 +1,24 @@
+nav{
+    padding-top:1em;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    .nav-logo{
+        img{
+            width: 120px;
+            
+        }
+    }
+    .nav-list{
+        margin: auto;
+            li{
+                padding-right: 2em;
+                align-items: center;
+                justify-content: center;
+                a{
+                    color : $color; 
+                }
+            }
+    }
+    
+}

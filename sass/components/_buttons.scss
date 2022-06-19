@@ -1,0 +1,15 @@
+.btn{
+    background-color : $green;
+    padding : 10px 22px;
+    text-align : center;
+    border-radius :0;
+    &.btn-transparent{
+        color :$green;
+        background-color : transparent;
+        
+    }
+    &.btn-green{
+        color :$white ;
+    }
+}
+

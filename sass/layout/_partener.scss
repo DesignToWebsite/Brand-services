@@ -1,0 +1,26 @@
+.partenar{
+    background-color: $grey;
+    display: grid;
+    justify-content: space-between;
+    padding : 50px 20px;
+    grid-template-columns: repeat(5,1fr);
+    
+    @include medium-screen{
+        grid-template-columns: repeat(5,1fr);
+    }
+    @include small-screen{
+        grid-template-columns: 1fr;
+    }
+    .society{
+        padding : 30px 10px;
+        img{
+            @include medium-screen{
+                width: 100%;
+            }
+        }
+        @include small-screen{
+           margin : auto;
+        }
+    }
+    
+}
